@@ -1,0 +1,23 @@
+{
+  "Express": {
+    "Validator": {
+      "must_be_integer": "Invalid value, must be integer",
+      "must_be_string": "Invalid value, must be string",
+      "must_be_object": "Invalid value, must be object",
+      "must_be_date": "Invalid value, must be UTC date with ISO format, example: '2020-09-06T02:10:00.000Z'",
+      "must_be_boolean": "Invalid value, must be boolean",
+      "date_in_the_past": "Incorrect value, you can't select a time in the past",
+      "invalid_duration": "Invalid duration format"
+    }
+  },
+  "CommonError": {
+    "pageNotFound": "Page not found!",
+    "required": "Required",
+    "Unauthorized": "Unauthorized",
+    "AccessDenied": "Access Denied",
+    "ServiceForStudentsTeachersOnly": "This service is available only for teachers and students",
+    "PageSizeValidation": "Page size must be english number, positive integer, greater than zero and maximum page size allowed is {{size}} items per page",
+    "PageNumberValidation": "Page must be english number, positive integer and greater than zero",
+    "InternalServerError": "Could not process your request."
+  }
+}
